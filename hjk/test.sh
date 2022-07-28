@@ -1,4 +1,7 @@
 #! /bin/sh
 
 mkdir one
-cd oneecho 'created directory'
+cd one
+
+rm -rf one
+echo 'created directory'
